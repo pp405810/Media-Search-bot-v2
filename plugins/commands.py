@@ -103,11 +103,11 @@ async def start(bot, cmd):
                         InlineKeyboardButton("📥  📥", url='https://t.me/MM2NDCHANNEL'),
                     ],
                    [
-                       InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 📺", url='https://t.me/malayalammoviesmms'),
-                       InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://youtu.be/2tek7Y5CEF4'),
+                       InlineKeyboardButton("🍿 MOVIES 📺", url='https://t.me/malayalam_movies_group_2'),
+                       InlineKeyboardButton("😍OWNER😍", url='https://t.me/tentacion_botz'),
                     ],
                      [
-                        InlineKeyboardButton("🗣️ 𝗔𝗕𝗢𝗨𝗧", callback_data="about")
+                        InlineKeyboardButton("🗣️ ABOUT", callback_data="about")
                     ]
                 ]
             )
@@ -196,18 +196,18 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗔𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 CHANNEL 💌', url='https://t.me/albertkingbotupdates'),
+            InlineKeyboardButton('📥 GROUP 📥', url='https://t.me/malayalam_MOVIES_GROUP_2')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/malayalammoviemmms'>꧁LXR=AMAL★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://youtu.be/2tek7Y5CEF4'>Click here</a>\nUpdate Channel : <a href='https://t.me/MALAYALAMNEWMOVIESONLY1'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/MALAYALAM_MOVIES_GROUP_2'>TENTACION</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nCONTACT OWNER : <a href='https://t.me/tentacion_botz'>Click here</a>\nUpdate Channel : <a href='https://t.me/albertkingbotupdates'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 @Client.on_message(filters.command('help'))
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('࿐ 𝗦𝗨𝗣𝗣𝗢𝗨𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 ࿐', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 CHANNEL 💌', url='https://t.me/tentacion_botz'),
+            InlineKeyboardButton('࿐ MOVIE GROUP ࿐', url='https://t.me/malayalam_movies_group_2')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
