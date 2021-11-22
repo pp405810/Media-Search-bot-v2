@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4')
+                        InlineKeyboardButton('🔎 SERCH HERE 🔍', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('🗣️OUR GROUP🗣️', url='https://t.me/malayalam_movies_group_2')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("📥 𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦 📥", url='https://t.me/MM2NDCHANNEL'),
+                        InlineKeyboardButton("📺 SERCH HERE 🔍", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("📥  📥", url='https://t.me/MM2NDCHANNEL'),
                     ],
                    [
                        InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 📺", url='https://t.me/malayalammoviesmms'),
